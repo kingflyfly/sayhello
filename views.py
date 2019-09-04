@@ -1,5 +1,4 @@
 from flask import flash,redirect,url_for,render_template
-
 from sayhello import app,db
 from sayhello.models import Message
 from sayhello.forms import HelloForm
